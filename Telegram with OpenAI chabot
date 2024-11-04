@@ -1,4 +1,4 @@
-##Create a chatbot with the OpenAI API
+#Create a chatbot with the OpenAI API
 
 #importing Telegram libraries
 import logging
