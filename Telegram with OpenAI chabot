@@ -8,6 +8,9 @@ from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandl
 from telegram import Bot
 import asyncio
 
+OPENAI_TOKEN =TOKEN
+
+
 # Enable logging
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO )
 
@@ -19,7 +22,7 @@ logger = logging.getLogger(__name__)
 #importing OpenAi libraries
 from openai import OpenAI
 
-client = OpenAI(api_key="OPENAI_TOKEN")
+client = OpenAI(api_key=OPENAI_TOKEN)
 
 
 #---------------------program--------------------------------------------------------------
